@@ -1,0 +1,36 @@
+.root {
+  --header-color: #ffffff;
+}
+body {
+  font-family: "Open Sans" sans-serif;
+  color: tomato;
+}
+
+.title {
+  color: violet;
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+/* header */
+
+.header-link,
+.header-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--header-color);
+}
+
+.header-btn {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  color: #ffffff;
+}
